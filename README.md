@@ -1,6 +1,5 @@
 Docker
 ----------
-
 - Apache
 - PHP
 - MySQL
