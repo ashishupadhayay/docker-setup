@@ -28,3 +28,5 @@ RUN a2enmod actions
 
 RUN rm -rf /etc/apache2/sites-enabled/*
 COPY config/apache/sites-enabled /etc/apache2/sites-enabled
+
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
